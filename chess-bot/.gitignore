@@ -7,5 +7,7 @@ CMakeCache.txt
 *.obj
 *.o
 *.log
+# External
+lichess-bot/
 # VS Code settings
 .vscode/
