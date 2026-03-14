@@ -1,0 +1,14 @@
+# ninja log v7
+911	1125	7837498750994544	ChessBot.exe	3cd760dd4aae4b06
+78	980	7847040377086950	CMakeFiles/Chess-Bot.dir/game/bitboard.cpp.obj	c82431017845a928
+38	1224	7848424609082682	CMakeFiles/Chess-Bot.dir/game/board.cpp.obj	c8301bf518e5b2bd
+42	1275	7848424609123013	CMakeFiles/Chess-Bot.dir/game/movegen.cpp.obj	b6b542a3e98fa19a
+22	13437	7844577153172568	CMakeFiles/Chess-Bot.dir/tests/perft.cpp.obj	56b3c2d77f78d9e7
+1275	1464	7848424621446263	Chess-Bot.exe	3e540adb3478d91c
+31	702	7848424608952604	CMakeFiles/Chess-Bot.dir/engine/eval.cpp.obj	6c074d207c4fd737
+27	1250	7848424608952604	CMakeFiles/Chess-Bot.dir/engine/search.cpp.obj	5422c0a4cd1804f2
+22	1166	7848424608833310	CMakeFiles/Chess-Bot.dir/main.cpp.obj	28889762191baf4e
+34	881	7848424608952604	CMakeFiles/Chess-Bot.dir/engine/nnue.cpp.obj	1b54e41a1dfc2489
+42	711	7847601252615948	CMakeFiles/Chess-Bot.dir/engine/incbin.c.obj	6851cb75f553bbb
+68	968	7848999856906236	build.ninja	5eb822b079bd4da2
+68	968	7848999856865892	C:/Users/kodxity/Documents/Programming Projects/Chess-Bot/out/build/GCC 15.2.0 x86_64-w64-mingw32 (mingw64)/cmake_install.cmake	5eb822b079bd4da2

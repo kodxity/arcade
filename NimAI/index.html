@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nim Game</title>
+    <link rel="stylesheet" href = "style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <div class = "container">
+
+        <h1 id = "title">Nim Demo</h1>
+        <div class = "menu">
+            <button id = "info">
+                <img id = "infoicon" src="infoicon.png">
+            </button>
+
+            <button id = "settings">
+                <img id = "settingsicon" src="settingsicon.png">     
+            </button>
+
+            <button id = "restart">Restart</button>
+            
+        </div>
+        
+        <div class = "modal" id = "modal_settings">
+            <div class = "settingsmodal">
+                <button id="settingsclose"></button>
+                <h5>Settings</h5>
+                <div id = "settingsoptions">
+                    <li>option 1</li>
+                    <li>option 2</li>
+                    <li>option 3</li>
+                    <li>option 4</li>
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class = "modal2" id = "modal_info">
+            <div class = "infomodal">
+                <button id="infoclose"></button>
+                <h5>About</h5>
+                <div id = "infotext">
+                    <p>Nim is a mathematical game of strategy 
+                        in which two players take turns removing
+                         (or "nimming") objects from distinct 
+                         heaps or piles. On each turn, a player
+                        must remove at least one object, and 
+                        may remove any number of objects provided 
+                        they all come from the same heap or pile. 
+                        Depending on the version being played, 
+                        the goal of the game is either to avoid 
+                        taking the last object or to take the 
+                        last object.
+                    </p>
+                </div>
+                
+            </div>
+
+        </div>
+        <div id ="gameboard">
+            <label id = "result"></label>
+            <label id = "playerturn"></label>
+            <label>Move: </label>
+            <input type = "number" id = "playermove" min = 0></input>
+            <button onclick = "move()">Make Move</button>
+        </div>
+        <div id = "errormessage"></div>
+        <div id = "pile"><h1></h1></div>
+        
+        <div>
+            <img id = "blackcat" src="blackcat.png">
+            <table id = "record">
+                
+                <thead>
+                    <th>Player 1</th>
+                    <th>Player 2</th>
+                </thead>
+                <tbody>
+        
+                </tbody>
+                
+        
+            </table>
+            <img id = "whitecat" src="whitecat.png">
+        </div>
+        
+        
+    </div>
+
+    
+
+
+    <script src = "script.js"></script>
+    
+    <footer class="footer">
+        
+        <a href="#"><i class = "fab fa-instagram"></i></a>
+        <a href="#"><i class = "fab fa-github"></i></a>
+        <a href="#"><i class = "fab fa-linkedin"></i></a>
+    </footer>
+</body>
+</html>

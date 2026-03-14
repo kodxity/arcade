@@ -1,0 +1,245 @@
+.container{
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#title{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+button{
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: solid black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+button:hover{
+    background-color: rgb(245, 242, 242);
+}
+
+button:active{
+    background-color: black;
+    color:white;
+}
+
+input{
+    font-size: 2rem;
+    width: 150px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom:70px;
+}
+
+#restart{
+    padding: 5px 10px;
+    width: auto;
+    font-size: 0.5em;
+    
+}
+#info{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    padding: 0px;
+}
+
+
+#infoicon{
+    width: 40px;
+    height: 40px;
+    
+    
+}
+#settings{
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+}
+
+#settingsicon{
+    width: 30px;
+    height: 30px;
+    
+}
+
+/* settings */
+
+
+.modal{ /* cover entire page */
+    
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    
+    /* make it so that its no active */
+    opacity: 0;
+    pointer-events: none;
+}   
+
+
+#modal_settings.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+.settingsmodal{
+    background: white;
+    border-radius: 50x;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    padding: 30px 50px;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+    
+    
+}
+
+.settingsmodal h5{
+    margin: 0;
+    
+}
+.settingsmodal #settingsoptions{
+    margin: 30px;
+}
+.settingsmodal li{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.settingsmodal #settingsclose{
+    position: sticky;
+    top: 0;
+    left: 95%;
+    width: auto;
+    font-size: 0.5em;
+}
+
+/* info */
+.modal2{ /* cover entire page */
+    
+    background-color: rgba(0,0,0,0.3);
+    position: fixed;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    
+    /* make it so that its no active */
+    opacity: 0;
+    pointer-events: none;
+}   
+
+
+#modal_info.show{
+    opacity: 1;
+    pointer-events: auto;
+}
+.infomodal{
+    background: white;
+    border-radius: 50x;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    padding: 30px 50px;
+    width: 300px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.infomodal h5{
+    margin: 0;
+    
+}
+.infomodal #infotext{
+    margin: 30px;
+}
+.infomodal p{
+    font-size: 14px;
+    opacity: 0.7;
+}
+.infomodal #infoclose{
+    position: sticky;
+    top: 0;
+    left: 95%;
+    width: auto;
+    font-size: 0.5em;
+}
+
+#gameboard{
+    opacity: 1;
+    pointer-events: auto;
+}
+#gameboard.won{
+    opacity: 0;
+    pointer-events: none;
+}
+#errormessage{
+    font-size: 15px;
+    color: red;
+}
+#pile{
+    margin: 25px;
+    font-size: 100px;
+}
+
+#blackcat{
+    left: 27%;
+    position: absolute;
+}
+#whitecat{
+    right:27%;
+    position: absolute;
+}
+#record{
+    display: inline-block;
+    justify-content: center;
+    max-height: 300px; /* Set a maximum height for the table */
+    overflow-y: auto;  /* Enable vertical scrolling if content exceeds height */
+}
+#record th{
+    background-color: white;
+    top: 0;
+    z-index: 2;
+    position: sticky;   
+    font-size: 30px;
+    padding: 2rem;
+}
+.footer{
+    width: 100%;
+    padding: 70px 0px 20px;
+
+}
+
+.footer a i{
+    padding: 10px;
+    font-size: 2em;
+    color: black;
+}
