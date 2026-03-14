@@ -1,8 +1,8 @@
 # CMake build and VS Code preset folders
-/build/
-/out/
-/CMakeFiles/
-/CMakeCache.txt
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
 *.exe
 *.obj
 *.o
